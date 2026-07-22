@@ -375,12 +375,18 @@ img {
 ================================================= */
 
 .parallax-section {
-    padding: 120px 0;
-    text-align: center;
-    background:
+    /* padding: 120px 0; */
+    /* text-align: center; */
+    /* background:
         linear-gradient(rgba(0, 0, 0, .65),
             rgba(0, 0, 0, .65)),
-        url("../images/bg_1.jpg") center center/cover no-repeat;
+        url("../images/bg_1.jpg") center center/cover no-repeat; */
+    
+     padding: 110px 0;
+    background:
+        linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, .65)),
+        url("../images/bg_1.jpg") center/cover no-repeat;
+    background-attachment: fixed;
 }
 
 .parallax-section h2 {
@@ -946,7 +952,7 @@ img {
 }
 
 /* =============================
-        PARALLAX
+        motivation-parallax
 ============================= */
 
 .motivation-parallax {
